@@ -1,3 +1,10 @@
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
 nav {
   text-align: right;
 }
@@ -20,11 +27,10 @@ nav ul li a {
 }
 
 .hero {
-  position: relative;
-  height: 500px;
+  /* height: 500px; */
 }
 
-.hero img {
+.hero .hero-text {
   width: 100%;
   height: 606px;
   background-color: aqua;
@@ -35,16 +41,7 @@ nav ul li a {
   flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fff;
-  font-family: Helvetica;
+  margin-bottom: 84px;
 }
 
 .hero-text h1 {
@@ -52,25 +49,26 @@ nav ul li a {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   margin-bottom: 20px;
   font-family: Helvetica;
+  color: #fff;
 }
 
 .hero-text p {
   font-size: 24px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   font-family: Helvetica;
+  color: #fff;
 }
 
-
 .info h5 {
-margin-bottom: 5px;
-font-size: 18 px;
-font-family: Helvetica;
+  margin-bottom: 5px;
+  font-size: 18 px;
+  font-family: Helvetica;
 }
 
 .info h2 {
-margin-bottom: 37px;
-font-size: 28 px;
-font-family: Helvetica;
+  margin-bottom: 37px;
+  font-size: 28 px;
+  font-family: Helvetica;
 }
 
 .info p {
@@ -81,20 +79,21 @@ font-family: Helvetica;
   margin-right: 83px;
 }
 
+
 .card-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  /* display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; */
 }
 
 .card-content {
-    width: 260px;
-    margin-bottom: 50px;
+  width: 260px;
+  margin-bottom: 50px;
 }
 
 .card-content img {
-    width: 100%;
-    margin-bottom: 23px;
+  width: 100%;
+  margin-bottom: 23px;
 }
 
 .card-content h3 {
@@ -112,6 +111,19 @@ font-family: Helvetica;
 }
 
 .fa-burger {
-    font-size: 30px;
-    display: none;
+  font-size: 30px;
+  display: none;
+}
+
+
+
+.section_2 {
+  display: flex;
+}
+
+.section_2_right {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
