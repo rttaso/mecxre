@@ -26,9 +26,7 @@ nav ul li a {
   color: #333;
 }
 
-.hero {
-  /* height: 500px; */
-}
+
 
 .hero .hero-text {
   width: 100%;
@@ -80,11 +78,6 @@ nav ul li a {
 }
 
 
-.card-container {
-  /* display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; */
-}
 
 .card-content {
   width: 260px;
@@ -158,7 +151,7 @@ nav ul li a {
     width: 100%;
   }
 }
-s
+
 @media screen and (max-width: 768px) {
   .container {
     max-width: 720px;

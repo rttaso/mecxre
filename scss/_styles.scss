@@ -1,0 +1,90 @@
+
+@import 'variables';
+@import 'mixins';
+
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+
+        a {
+          display: block;
+          padding: 10px;
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.hero {
+  background-color: aqua;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .hero-text {
+    text-align: center;
+
+    h1 {
+      font-size: 48px;
+      color: #fff;
+    }
+
+    p {
+      font-size: 24px;
+      color: #fff;
+    }
+  }
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.card-content {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  img {
+    width: 100%;
+    margin-bottom: 23px;
+  }
+
+  h3 {
+    color: #343232;
+    font-size: 19px;
+    font-family: Helvetica;
+    margin-bottom: 9px;
+  }
+
+  p {
+    color: #636060;
+    font-size: 18px;
+    font-family: Helvetica;
+    width: 100%;
+  }
+}
